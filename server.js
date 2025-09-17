@@ -9,7 +9,7 @@ const port = 4000;
 
 app.use(express.json({ limit: "2mb" }));
 
-app.post("/", (req, res) => {
+app.post("/typescript", (req, res) => {
   const { code } = req.body;
 
   if (!code) {
